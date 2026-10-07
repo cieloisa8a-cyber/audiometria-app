@@ -52,5 +52,5 @@ cd audiometria-app
 
 ## 👥 Integrantes
 
-- Cielo (`@cieloisa8a-cyber`)
-- _(nombre del compañero)_
+- Cielo Ochoa
+- Juan Guerrero
