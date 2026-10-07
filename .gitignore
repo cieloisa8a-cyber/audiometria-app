@@ -1,0 +1,47 @@
+# ============================================
+# AudioCheck - .gitignore raíz del monorepo
+# ============================================
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- Android / Gradle ---
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# --- Go ---
+backend-go/bin/
+backend-go/vendor/
+backend-go/*.exe
+backend-go/tmp/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Secretos (NUNCA subir) ---
+.env
+.env.*
+!.env.example
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
